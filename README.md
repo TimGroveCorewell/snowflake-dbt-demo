@@ -27,7 +27,8 @@
     - Windows - Setting it up and verifying which python you are now using:
         ```
         py -m pip install --user virtualenv
-        py -m venv dbt
+        py -m virtualenv --python C:\Users\tigrove\AppData\Local\Programs\Python\Python310\python.exe dbt
+        ### py -m venv dbt
         .\dbt\Scripts\activate
         where python
         py -m pip install -U dbt-core dbt-snowflake
